@@ -14,6 +14,7 @@ pipeline{
 			steps{
 				sh 'mvn test'
 		}
+		}
 		
 		stage('Run Application'){
 			steps{
