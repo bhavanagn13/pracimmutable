@@ -30,9 +30,7 @@ pipeline{
 		failure{
 			echo 'Pipeline failed'
 		}
-		always{
-			junit 'target/surefire-reports/*.xml'
-		}
+		
 	}
 }
 				
